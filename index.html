@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SPA Vanilla js</title>
+</head>
+
+<body>
+    <header class="header">
+        <ul class="header__list">
+            <li class="header__list--element"><button onclick="router.loadRoute('')">home</button></li>
+            <li class="header__list--element"><button onclick="router.loadRoute('aboutme')">about me</button></li>
+            <li class="header__list--element"><button onclick="router.loadRoute('contact')">contact</button></li>
+        </ul>
+    </header>
+
+    <div class="container" data-router></div>
+    <script src="./Router.js"></script>
+    <script src="./routes.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

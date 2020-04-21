@@ -1,0 +1,6 @@
+1) Cargar ruta
+1.1) Identificar en donds encontramos en el sitio.
+2) Comparar url con ruta -> La url a la que nos queremos mover se debe comparar
+con las rutas que tenemos.
+3) Actualizar la url en la barra de navegación para eso utilizaremos push.state
+4) Actualizar el dom con el nuevo contenido utlilizando inner HTML
